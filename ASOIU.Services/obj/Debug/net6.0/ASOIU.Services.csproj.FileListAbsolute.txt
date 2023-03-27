@@ -1,0 +1,15 @@
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\bin\Debug\net6.0\ASOIU.Services.deps.json
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\bin\Debug\net6.0\ASOIU.Services.dll
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\bin\Debug\net6.0\ASOIU.Services.pdb
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\bin\Debug\net6.0\ASOIU.Models.dll
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\bin\Debug\net6.0\ASOIU.Models.pdb
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\obj\Debug\net6.0\ASOIU.Services.csproj.AssemblyReference.cache
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\obj\Debug\net6.0\ASOIU.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\obj\Debug\net6.0\ASOIU.Services.AssemblyInfoInputs.cache
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\obj\Debug\net6.0\ASOIU.Services.AssemblyInfo.cs
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\obj\Debug\net6.0\ASOIU.Services.csproj.CoreCompileInputs.cache
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\obj\Debug\net6.0\ASOIU.Services.csproj.CopyComplete
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\obj\Debug\net6.0\ASOIU.Services.dll
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\obj\Debug\net6.0\refint\ASOIU.Services.dll
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\obj\Debug\net6.0\ASOIU.Services.pdb
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\obj\Debug\net6.0\ref\ASOIU.Services.dll

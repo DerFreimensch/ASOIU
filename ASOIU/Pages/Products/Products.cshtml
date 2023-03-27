@@ -1,0 +1,40 @@
+﻿@page
+@model ProductsModel
+
+@{
+    ViewData["Title"] = "Каталог";
+}
+<form method="get" class="mb-3">
+    <div class="input-group">
+        <input class="form-control" asp-for="SearchTerm"/>
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-primary">Найти</button>
+        </div>
+    </div>
+</form>
+<div class="content">
+    @{
+        foreach (var item in Model.Products)
+        {
+            var photoPath = $"/media/Photo/{@item.maker.maker}/{@item.ID}.jpg";
+            <a asp-area="" asp-page="/Products/Details" asp-route-ID="@item.ID">
+                <div class="product-card">
+                    <img src="@photoPath" alt="Product Image" asp-append-version="true"/>
+                    <h3>@item.price руб.</h3>
+                    <h2>@item.name</h2>
+                    @{
+                        if (item.info.Length > 16)
+                        {
+                            <p>@item.info.Substring(0, 15)</p>
+                        }
+                        else
+                        {
+                            <p>@item.info</p>
+                        }
+                    }
+
+                </div>
+            </a>
+        }
+    }
+</div>
