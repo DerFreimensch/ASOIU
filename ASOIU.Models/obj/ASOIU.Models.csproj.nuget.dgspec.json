@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj": {}
+    "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj": {
+    "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj",
+        "projectUniqueName": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj",
         "projectName": "ASOIU.Models",
-        "projectPath": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj",
+        "projectPath": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj",
         "packagesPath": "C:\\Users\\kdmar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Models\\obj\\",
+        "outputPath": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.10.9, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200-preview.22628.1\\RuntimeIdentifierGraph.json"
         }
       }
     }

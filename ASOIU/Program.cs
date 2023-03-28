@@ -2,6 +2,8 @@ using ASOIU.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using MySql.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using ASOIU.Models;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +17,10 @@ builder.Services.AddDbContextPool<AppDbContext>(options =>
     var connectionString = builder.Configuration.GetConnectionString("ProductsDbConnection");
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
+
+builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<AppDbContext>();
+
 builder.Services.AddAuthorization(option =>
 {
     option.FallbackPolicy = new AuthorizationPolicyBuilder()
