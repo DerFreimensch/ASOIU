@@ -6,12 +6,17 @@ namespace ASOIU.Models;
 public class Order
 {
     [Key] public int ID { get; set; }
-     public string adress { get; set; }
+     public string address { get; set; }
      public DateTime date { get; set; }
      public string comm { get; set; }
     
-     [ForeignKey(nameof(user))]
+     [ForeignKey(nameof(userID))]
      [InverseProperty("Orders")]
-     public int user { get; set; }
-     public virtual User t_user { get; set; }
+     public int userID { get; set; }
+     public virtual User username { get; set; }
+
+     public override string ToString()
+     {
+         return ID.ToString();
+     }
 }

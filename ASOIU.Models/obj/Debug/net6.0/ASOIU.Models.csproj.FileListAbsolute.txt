@@ -22,3 +22,5 @@ C:\Users\kdmar\RiderProjects\ASOIU\ASOIU.Models\obj\Debug\net6.0\ASOIU.Models.dl
 C:\Users\kdmar\RiderProjects\ASOIU\ASOIU.Models\obj\Debug\net6.0\refint\ASOIU.Models.dll
 C:\Users\kdmar\RiderProjects\ASOIU\ASOIU.Models\obj\Debug\net6.0\ASOIU.Models.pdb
 C:\Users\kdmar\RiderProjects\ASOIU\ASOIU.Models\obj\Debug\net6.0\ref\ASOIU.Models.dll
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Models\bin\Debug\net6.0\ASOIU.Models.runtimeconfig.json
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Models\obj\Debug\net6.0\ASOIU.Models.genruntimeconfig.cache

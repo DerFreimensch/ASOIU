@@ -1,0 +1,60 @@
+﻿@page
+@* @model ASOIU.Pages.Identity.User.User *@
+
+@{
+    ViewData["Title"] = "Konstantin";
+}
+<h2>Личный кабинет</h2>
+<div class="align-content-start">
+    <table class="table">
+        <tbody>
+        <tr>
+            <td>Имя: </td>
+            <td>Константин</td>
+        </tr>
+        <tr>
+            <td>Фамилия: </td>
+            <td>Марков</td>
+        </tr>
+        <tr>
+            <td>Логин: </td>
+            <td>kostrm030102@gmail.com</td>
+        </tr>
+        </tbody>
+    </table>
+    <div>
+        <button type="button" onclick="window.location.href = 'https://localhost:7159/Identity/User/ChangeUser'" class="align-content-center btn-primary">Изменить данные</button>
+    </div>
+    <div class="align-content-center">
+        <table class="table">
+            <thead>
+            <tr>
+                <th class="col">#</th>
+                <th class="col">ID</th>
+                <th scope="col">Дата заказа</th>
+                <th scope="col">Адрес</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>2</td>
+                <td>15.02.2023</td>
+                <td>Пр-кт Маршала Жукова 60 к.2 кв.230</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>4</td>
+                <td>10.03.2023</td>
+                <td>Пр-кт Маршала Жукова 60 к.2 кв.230</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>5</td>
+                <td>30.03.2023</td>
+                <td>Пр-кт Маршала Жукова 60 к.2 кв.230</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

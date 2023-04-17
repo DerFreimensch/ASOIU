@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU\\ASOIU.csproj": {}
+    "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU\\ASOIU.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj": {
+    "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj",
+        "projectUniqueName": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj",
         "projectName": "ASOIU.Models",
-        "projectPath": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj",
+        "projectPath": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj",
         "packagesPath": "C:\\Users\\kdmar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Models\\obj\\",
+        "outputPath": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,13 +49,23 @@
               "target": "Package",
               "version": "[6.0.15, )"
             },
-            "MySql.Data.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.10.9, )"
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
             },
             "MySql.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
@@ -74,18 +84,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200-preview.22628.1\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Services\\ASOIU.Services.csproj": {
+    "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Services\\ASOIU.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Services\\ASOIU.Services.csproj",
+        "projectUniqueName": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Services\\ASOIU.Services.csproj",
         "projectName": "ASOIU.Services",
-        "projectPath": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Services\\ASOIU.Services.csproj",
+        "projectPath": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Services\\ASOIU.Services.csproj",
         "packagesPath": "C:\\Users\\kdmar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Services\\obj\\",
+        "outputPath": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -107,8 +117,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj": {
-                "projectPath": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj"
+              "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj": {
+                "projectPath": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj"
               }
             }
           }
@@ -127,17 +137,23 @@
               "target": "Package",
               "version": "[6.0.15, )"
             },
-            "MySql.Data.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.22, )"
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
             },
             "MySql.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.10, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
@@ -156,18 +172,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200-preview.22628.1\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU\\ASOIU.csproj": {
+    "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU\\ASOIU.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU\\ASOIU.csproj",
+        "projectUniqueName": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU\\ASOIU.csproj",
         "projectName": "ASOIU",
-        "projectPath": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU\\ASOIU.csproj",
+        "projectPath": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU\\ASOIU.csproj",
         "packagesPath": "C:\\Users\\kdmar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU\\obj\\",
+        "outputPath": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -189,11 +205,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj": {
-                "projectPath": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj"
+              "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj": {
+                "projectPath": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Models\\ASOIU.Models.csproj"
               },
-              "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Services\\ASOIU.Services.csproj": {
-                "projectPath": "C:\\Users\\kdmar\\RiderProjects\\ASOIU\\ASOIU.Services\\ASOIU.Services.csproj"
+              "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Services\\ASOIU.Services.csproj": {
+                "projectPath": "C:\\Users\\kdmar\\source\\repos\\ASOIU\\ASOIU.Services\\ASOIU.Services.csproj"
               }
             }
           }
@@ -208,11 +224,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "CoreAdmin": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.15, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.15, )"
             },
@@ -232,7 +258,11 @@
             },
             "MySql.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
@@ -254,7 +284,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200-preview.22628.1\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

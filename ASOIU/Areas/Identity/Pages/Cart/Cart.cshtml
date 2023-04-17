@@ -1,0 +1,47 @@
+﻿@page
+@model ASOIU.Areas.Identity.Pages.Cart.Cart
+
+@{
+    ViewData["Title"] = "Корзина";
+}
+
+<h2>Ваша корзина</h2>
+
+<div class="align-content-center">
+    <table class="table">
+        <thead>
+        <tr>
+            <th class="col">#</th>
+            <th class="col">Наименование</th>
+            <th class="col">Кол-во</th>
+            <th class="col"></th>
+            <th class="col"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th class="row">1</th>
+            <td>mk-1</td>
+            <td>2</td>
+            <td>
+                <button class="btn-primary">Добавить</button>
+            </td>
+            <td>
+                <button class="btn-primary">Убрать</button>
+            </td>
+        </tr>
+        <tr>
+            <th class="row">2</th>
+            <td>mem-1</td>
+            <td>4</td>
+            <td>
+                <button class="btn-primary">Добавить</button>
+            </td>
+            <td>
+                <button class="btn-primary">Убрать</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <button class="btn-primary" onclick="window.location.href = 'https://localhost:7159/Identity/User/User'">Закзать</button>
+</div>

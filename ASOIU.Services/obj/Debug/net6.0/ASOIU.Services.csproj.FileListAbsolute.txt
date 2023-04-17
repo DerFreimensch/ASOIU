@@ -28,3 +28,5 @@ C:\Users\kdmar\RiderProjects\ASOIU\ASOIU.Services\obj\Debug\net6.0\ASOIU.Service
 C:\Users\kdmar\RiderProjects\ASOIU\ASOIU.Services\obj\Debug\net6.0\refint\ASOIU.Services.dll
 C:\Users\kdmar\RiderProjects\ASOIU\ASOIU.Services\obj\Debug\net6.0\ASOIU.Services.pdb
 C:\Users\kdmar\RiderProjects\ASOIU\ASOIU.Services\obj\Debug\net6.0\ref\ASOIU.Services.dll
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\bin\Debug\net6.0\ASOIU.Services.runtimeconfig.json
+C:\Users\kdmar\source\repos\ASOIU\ASOIU.Services\obj\Debug\net6.0\ASOIU.Services.genruntimeconfig.cache

@@ -9,13 +9,13 @@ public class Feedback
     public string text { get; set; }
     public DateTime date { get; set; }
     
-    [ForeignKey(nameof(user))]
+    [ForeignKey(nameof(userID))]
     [InverseProperty("Feedbacks")]
-    public int user { get; set; }
-    public virtual User t_user { get; set; }
+    public int userID { get; set; }
+    public virtual User username { get; set; }
     
-    [ForeignKey(nameof(product))]
+    [ForeignKey(nameof(productID))]
     [InverseProperty("Feedbacks")]
-    public int product { get; set; }
-    public virtual Product t_product { get; set; }
+    public int productID { get; set; }
+    public virtual Product name { get; set; }
 }

@@ -7,4 +7,9 @@ public class Specifications
     [Key]
     public int ID { get; set; }
     public string maker { get; set; }
+
+    public override string ToString()
+    {
+        return maker;
+    }
 }

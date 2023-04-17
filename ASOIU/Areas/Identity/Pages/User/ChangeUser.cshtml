@@ -1,0 +1,32 @@
+﻿@page
+@model ASOIU.Pages.User.ChangeUser
+
+@{
+    ViewData["Title"] = "Редактирование профиля";
+}
+
+<h2>Редактирование профиля</h2>
+
+<div class="align-content-center">
+    <div class="form-floating">
+        <input class="form-control" autocomplete="name" aria-required="true" value="Константин"/>
+        <label>Имя</label>
+    </div>
+    <div class="form-floating">
+        <input class="form-control" autocomplete="surname" aria-required="true" value="Марков"/>
+        <label>Фамилия</label>
+    </div>
+    <div class="form-floating">
+        <input class="form-control" autocomplete="login" aria-required="true" value="kostrm030102@gmail.com"/>
+        <label>Логин</label>
+    </div>
+    <div class="form-floating">
+        <input class="form-control" autocomplete="password" aria-required="true" value="12345678"/>
+        <label>Пароль</label>
+    </div>
+    <div class="form-floating">
+        <input class="form-control" autocomplete="check" aria-required="true" value="12345678"/>
+        <label>Повторить пароль</label>
+    </div>
+    <button class="btn-primary">Сохранить</button>
+</div>

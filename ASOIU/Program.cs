@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using MySql.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using ASOIU.Models;
+using User = ASOIU.Pages.User.User;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,21 +13,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 //builder.Services.AddSingleton<IProductRepository, MockProductRepository>();
 builder.Services.AddScoped<IProductRepository, SqlProductRepository>();
-builder.Services.AddDbContextPool<AppDbContext>(options =>
+builder.Services.AddDbContext<AppDbContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("ProductsDbConnection");
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
+builder.Services.AddCoreAdmin();
 
-builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<AppDbContext>();
-
-builder.Services.AddAuthorization(option =>
-{
-    option.FallbackPolicy = new AuthorizationPolicyBuilder()
-        .RequireAuthenticatedUser()
-        .Build();
-});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -42,9 +35,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication(); 
 app.UseAuthorization();
-
+app.MapDefaultControllerRoute();
 app.MapRazorPages();
 
 app.Run();

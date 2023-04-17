@@ -25,7 +25,7 @@ public class SqlUserRepository : IUserRepository
 
     public bool UserExists(string login, string password)
     {
-        var temp =  _context.Users.FirstOrDefault(u => u.login.Equals(login) && u.password.Equals(password));
+        var temp =  _context.Users.FirstOrDefault(u => u.email.Equals(login));
         return temp != null;
     }
 }
